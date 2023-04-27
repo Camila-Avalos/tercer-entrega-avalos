@@ -1,0 +1,110 @@
+ul{list-style-type: none;}
+a{text-decoration: none;font-size:22px;}
+h1{text-align: center;}
+body{margin:0;}
+.bgPrincipal{background-color: lightgreen;;}
+.prod{background-color: black;color: aliceblue; padding:5px;margin:10px;border-radius:20px;}
+h4{text-align:center;}
+img{border-radius: 20px;}
+.img-fluid{
+  width: 350px;
+  height: 300px;
+  padding: 10PX;
+}
+/* COLOR DE LETRA DE ENVIOS Y CUOTAS */
+$colorOrange:orange;
+.colorOrange{
+  color: $colorOrange;
+}
+/* BOTON DE VER MAS PRODUCTOS */
+.masproductos{
+    text-align: center;
+    padding: 30px;
+}
+.color{
+  background-color: rgb(18, 13, 8);
+  color: aliceblue;
+}
+
+/* NOTIFICACION PRINCIPAL */
+.notificacion {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px 16px;
+    font-family: 'Tilt Neon';
+}
+/* CONTACTO */
+.contacto {
+    font-family: 'Tilt Neon';
+    text-align: left;
+    color: aliceblue;
+    padding: 10px;
+}
+/* FONDO DE NOTIFICACION */
+$colorfondo:rgb(247, 251, 18);
+.colorFondo {
+  color: $colorfondo;
+}
+  
+    /* IMAGENES DE CONTENIDO, PRODUCTOS Y DEPORTE */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Open Sans';
+      }
+      .contenido {
+        display: flex;
+        flex-direction: row;
+        max-width: 1100px;
+        width: 100%;
+        margin: 40px auto;
+      }
+    
+      .mostrador {
+        width: 100%;
+        transition: .5s ease;
+      }
+      .mostrador .fila {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+      }
+      .mostrador .fila .item{
+        max-width: 210px;
+      }
+      .mostrador .fila .item img{
+        width: 150%;
+        height: 150%;
+      }
+      /* TAMAÑO DE LOGO*/
+      .imglogo {
+        height: 100px;
+        width: 100px;
+      }
+      /* FORMULARIO DE CONTACTO*/
+      .formulario{
+        text-align: center;
+        padding: 20px;
+      }
+      /* FOOTER*/
+      footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between ;
+        padding: 20px;
+        color: rgb(7, 7, 6);
+        font-size: 15px;
+        background-color: rgb(242, 246, 30);
+        text-decoration: none;
+        font-family: 'Arial';
+    }
+
+.d-block {
+    position: relative;
+    height: 500px;
+}
+body {
+  overflow-x: hidden;
+}
