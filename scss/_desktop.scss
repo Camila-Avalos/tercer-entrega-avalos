@@ -11,6 +11,28 @@ height: 500px;
     position: relative;
     height: 300px;
  }
+//  Pagina de contacto
+ .footer{
+   background-color: rgb(242, 246, 30);
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   padding-bottom: 50px;
+ }
+ .footer {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   gap: 20px;
+ }
+ 
+ .footerLogo,
+ .footerEnlaces,
+ .footerContacto {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
   }
 
 

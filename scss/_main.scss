@@ -108,3 +108,38 @@ $colorfondo:rgb(247, 251, 18);
 body {
   overflow-x: hidden;
 }
+
+// Seccion de contacto
+.navbar{
+  display: inline-flex;
+  height: 68px;
+  width: 100%;
+}
+
+.enlacesNav {
+  list-style-type: none;
+  padding: 10px;
+  margin:0%;
+  display: flex;
+  text-align: center;
+  float: left;
+}
+.botonForm {
+  border: 3px solid rgb(36, 6, 170);
+  border-radius: 10px;
+  align-items: center;
+  background-color: rgb(192, 187, 179);
+}
+
+.containerForm {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+.textoInsta {
+  color: black;
+  font-size: 18px;
+}

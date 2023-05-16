@@ -14,4 +14,38 @@ font-size: 18px;
       position: relative;
       height: 300px;
    }
+   .navbar {
+    z-index: 10;
+  }
+.navbar-nav {
+  background-color: rgb(13, 0, 131);
+  border-radius: 20px;
+}  
+body{
+  overflow-x: hidden;
+}
+// Seccion de contacto
+.navbar{
+  display: inline-flex;
+  height: 68px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.enlacesNav {
+  list-style-type: none;
+  padding: 10px;
+  margin:0%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  float: left;
+  margin-bottom: 60px;
+}
+.nikeRojas {
+  width: 100%;
+  padding: 0%;
+  overflow-x: hidden;
+  position: relative;
+}
 }
